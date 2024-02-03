@@ -24,6 +24,7 @@ body {
 
 .col-6 {
    height: 150px;   
+   border-radius:  10px;
 }
 
 .cover1 {
