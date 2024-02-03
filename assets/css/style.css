@@ -22,3 +22,45 @@ body {
 #thumbnail {
    border-radius:  10px;
 }
+
+.col-6 {
+   height: 150px;   
+}
+
+.cover1 {
+   background-color: aqua;
+   background-clip: content-box;
+   box-shadow: inset 0 0 0 12px white;   
+}
+.cover2 {
+   background-color: rgb(117, 88, 221);
+   background-clip: content-box;
+   box-shadow: inset 0 0 0 12px white
+
+}
+.cover3 {
+   background-color: rgb(247, 243, 16);
+   background-clip: content-box;
+   box-shadow: inset 0 0 0 12px white
+}
+.cover4 {
+   background-color: rgb(155, 15, 136);
+   background-clip: content-box;
+   box-shadow: inset 0 0 0 12px white
+}
+
+.author, .synopsis {
+   height: 300px;
+}
+
+.author {
+   background-color: rgb(18, 163, 26);
+   background-clip: content-box;
+   box-shadow: inset 0 0 0 12px white
+}
+
+.synopsis {
+   background-color: rgb(8, 140, 228);
+   background-clip: content-box;
+   box-shadow: inset 0 0 0 12px white
+}
