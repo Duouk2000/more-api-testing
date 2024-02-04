@@ -87,6 +87,9 @@ fetch(url)
 
       // HTML element where ingredient information will be displayed
       const drinksSection = document.getElementById('ingredient');
+      // clear ingredients from screen
+      drinksSection.innerHTML = '';
+
       // loop through the array to extract and display ingredients
       for (let i = 0; i <= 14; i++) {
         const ingredientKey = `strIngredient${i}`;
